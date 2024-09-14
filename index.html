@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML-Learning</title>
+    <link
+      rel="icon"
+      href="https://i.pinimg.com/originals/16/9a/12/169a127e655da2f16a3309d9f1cb6225.jpg"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <meta
+      name="description"
+      content="Simple HTML file for learning HTML concepts"
+    />
+    <meta name="keywords" content="rohit virat dhoni sachin" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      console.log("Inline Script Executing");
+      const a = 100;
+      console.log(a);
+    </script>
+    <script src="script.js"></script>
+    <style>
+      p {
+        font-style: italic;
+        color: greenyellow;
+      }
+
+      table,
+      td,
+      tr,
+      th {
+        border: 1px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>FSD-WE-T-B9</h1>
+    <p>Sample HTML File for Learning HTML Basics</p>
+    <img
+      style="height: 100px; width: 150px"
+      src="https://i.pinimg.com/originals/16/9a/12/169a127e655da2f16a3309d9f1cb6225.jpg"
+      alt="Learning"
+    />
+    <a href="https://facebook.com/sanjaysaravanan21" target="_blank"
+      >Facebook Link</a
+    >
+    <mark>FSD-WE-T-B7</mark>
+    <button>Click Me</button>
+    <span>Simple Span Tag</span>
+    <div>Simple Div Tag</div>
+    <input />
+    <ol type="a" style="list-style-type: tamil">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Expresso</li>
+    </ol>
+    <ul style="list-style-type: disc">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Expresso</li>
+    </ul>
+
+    <h1>Semantic Tags</h1>
+    <header>Simple Header</header>
+
+    <table style="border-collapse: collapse; border: 1px solid">
+      <thead>
+        <th colspan="2">Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2" colspan="2">Sanjay</td>
+          <td>sanjay@gmail.com</td>
+          <td>9790889427</td>
+        </tr>
+        <tr>
+          <td>Sam</td>
+          <td>sam@gmail.com</td>
+          <td>1234567890</td>
+        </tr>
+        <tr>
+          <td colspan="2">Vignesh</td>
+          <td>vikky@gmail.com</td>
+          <td>9790889427</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h1>Form</h1>
+    <form>
+      <label for="ac-no">Account No:</label>
+      <input type="number" name="accNo" id="ac-no" required />
+      <br />
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required />
+      <br />
+
+      <label>Gender: </label>
+
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="Female">Female</label>
+      <input type="radio" name="gender" id="Female" value="female" />
+      <label for="others">Others</label>
+      <input type="radio" name="gender" id="others" value="others" />
+
+      <input type="color" name="color" />
+
+      <br />
+
+      <!-- <button type="submit">Submit</button> -->
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>

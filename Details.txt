@@ -1,0 +1,135 @@
+
+Topics:
+
+  1. Remaining Array Methods: 
+
+    forEach:
+      Performs the specified action for each element in an array.
+      returns undefined
+    map:
+      returns a new array using the existing Array from callbackfn return value
+    filter:
+      Returns the elements of an array that meet the condition specified in a callback function
+
+    reduce:
+      Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
+
+  2. JSON - files format to representing data similar to JS Object
+
+    JSON.parse - JSON String to JS Objects, 
+      will throw error for non json strings
+
+    JSON.stringify - JS Objects to JSON string
+      
+  3. HTML:
+
+    HTML - Hyper Text MarkUp Language
+
+    Prefined Tags with default markup behavior with default CSS styles sometimes based on the browser 
+
+    Simple HTML DOM Structure:
+
+      <!DOCTYPE html> - specifing to use a version of the HTML ( Mostly latest version )
+
+      html tag: lang attribute for specifying the language
+        parent tag for all the tags ( initial containing block )
+
+      head: ( information, assets about the webpage which is ** not directly ** displayed to the User )
+        title 
+        link: ( external assets / files )
+          icon
+          self-closing
+            <link ...attributes />
+              href, rel
+        script
+          src
+        style
+        meta: ( extra information to the internet & sometime for the browser )
+          name: ( common meta name )
+
+            SEO - search engine optimization
+              keywords
+              description
+            viewport:
+              handle the width of the browser
+          
+          content:
+            content with related to the name attributes above
+
+      body: ( all the contents which is intended to be displayed to the User )
+        div
+        span
+        img:
+          self -closing tags
+          <img />
+          <br /> --> go to next line
+        a - anchor
+        p - paragraph
+        h - heading
+        mark - highligthing
+        button: Click Event trigger
+
+        br - break line
+
+        input: input from User
+
+        list tags:
+          ul ( un-ordered list ), ol ( ordered-list ), li (list item)
+          list-style-type
+
+        semantic tags:
+          they have a special meaning to inform the browser
+
+            h1...h6, section, article, aside, nav, footer, header, 
+
+            Improves the accessibility & SEO ( search engine optimization ) indexing
+        
+        inline vs block elements
+
+          inline --> an element which occupies only the width needed for it
+          block --> an element which occupies the entire parent's width
+
+          Tell Me what are block and inline elements,
+
+            Block:
+              div, h1, h2, h3, h4, h5, h6, p, ol, ul
+            
+            Inline:
+              span, a, img, mark
+
+        table:
+          table is used for representing data in a tabular form
+          thead, 
+          tbody, 
+          th( column header ), 
+          tr ( table row ), 
+          td ( table data )
+            colspan
+            rowspan
+
+        forms:
+
+          type:
+            text
+            date
+            checkbox
+            radio
+            color
+            week
+            password
+            ...etc, please refer the below link for more details
+
+            https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+
+          input grouping
+
+          submitting behavior
+
+Task:
+  Go through practive all the tags & semantic tags, forms( use all the input types), tables
+
+Next Session:
+  JSON Iteration:
+    Object.values(obj); // array of values of obj
+    Object.keys(obj); // array keys of obj
+    for...in

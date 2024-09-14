@@ -126,7 +126,8 @@ Topics:
           submitting behavior
 
 Task:
-  Go through practive all the tags & semantic tags, forms( use all the input types), tables
+  revise all the topics covered in the session
+  Go through practice all the tags & semantic tags, forms( use all the input types), tables
 
 Next Session:
   JSON Iteration:
